@@ -10,7 +10,7 @@ const Navbar = () => {
       </div>
       <div className='inline-flex'>
         <ul className=' text-white pt-1 pl-96'>
-          <li className='inline-flex  text-xl font-bold'>
+          <li className='inline-flex  text-xl font-semibold'>
             <a className='pr-4 hover:text-sky-400' href="">Home</a>
             <a className='pr-4 hover:text-sky-400' href="">Variants</a>
             <a className='pr-4 hover:text-sky-400' href="">Process</a>
@@ -20,11 +20,11 @@ const Navbar = () => {
             </li>
             </ul>
             
-            <ul className='pr-3.5'>
+            <ul className='pr-'>
              
               <li className='text-cyan-500 font-bold'>
-            <a className='pl-64 inline-flex ' href="" >
-              <img src="imgs/telephone-call.png"  className=' h-7' alt="" />+91-97111-20863  
+            <a className='ml-64 inline-flex  p-0.5 ' href="" >
+              <img src="imgs/telephone-call.png"  className=' h-7 ml-2' alt="" />+91-97111-20863  
               <img src="imgs/whatsapp.png"className='h-6 ml-4 '/>+91-97111-20863
               </a>
            

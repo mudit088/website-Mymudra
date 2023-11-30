@@ -9,8 +9,9 @@ const Variants = () => {
     </div>
 
     
-    <div className="flex max-h-screen items-center justify-center">
-  <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4 h-64 mb-20 rounded-xl mt-10 ">
+    <div className="flex  items-center justify-center">
+  <div className="grid grid-cols-1 gap-8   md:grid-cols-2 lg:grid-cols-4 h-max mb-20 rounded-xl mt-10 ">
+
     <div className="group relative cursor-pointer items-center justify-center rounded-3xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-cyan-500/30">
       <div className="">
         <img className="h-96 object-cover transition-transform duration-500  group-hover:scale-125" src="imgs/individual.png" alt="" />
@@ -29,18 +30,18 @@ const Variants = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-teal-400 group-hover:from-teal-400 group-hover:via-teal-400/60 group-hover:to-teal-400"></div>
       <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 className="font-dmserif text-3xl font-bold text-blue-800 italic">FOR YOU AND YOU PARTNER</h1>
-        <p className="mb-3 text-lg italic text-blue-800 opacity-0 transition-opacity duration-300 font-semibold group-hover:opacity-100 bg-teal-100 rounded-3xl">Special health care for your partner. We are committing you with best health insurance policy.</p>
+        <p className="mb-10 text-lg italic text-blue-800 opacity-0 transition-opacity duration-300 font-semibold group-hover:opacity-100 bg-teal-100 rounded-3xl">Special health care for your partner. We are committing you with best health insurance policy.</p>
         
       </div>
     </div>
     <div className="group relative cursor-pointer rounded-3xl items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
       <div className="h-96 w-72">
-        <img className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="imgs/family.png" alt="" />
+        <img className="h-96 w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="imgs/family.png" alt="" />
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-teal-400 group-hover:from-teal-400 group-hover:via-teal-400/60 group-hover:to-teal-400/60"></div>
       <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 className="font-dmserif text-3xl font-bold text-blue-900 italic">Insure your family</h1>
-        <p className="mb-3 text-lg italic text-blue-900 opacity-0 transition-opacity duration-300 group-hover:opacity-100 font-semibold bg-teal-100 rounded-3xl">Choose the best health insurance plans for family and protect them with the shield.</p>
+        <p className="mb-10 text-lg italic text-blue-900 opacity-0 transition-opacity duration-300 group-hover:opacity-100 font-semibold bg-teal-100 rounded-3xl">Choose the best health insurance plans for family and protect them with the shield.</p>
         
       </div>
     </div>
@@ -51,7 +52,7 @@ const Variants = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-teal-400 group-hover:from-teal-400 group-hover:via-teal-400/60 group-hover:to-teal-400/60"></div>
       <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 className="font-dmserif text-3xl font-bold text-blue-900 italic">Parents Floater</h1>
-        <p className="mb-3 text-lg italic text-blue-900 opacity-0 transition-opacity  duration-300 group-hover:opacity-100 font-semibold bg-teal-100 rounded-3xl">Insurify your family as well as your in-laws with the family health insurance plans. Do not create the hole in pocket with affordable plans.</p>
+        <p className="mb-10 text-lg italic text-blue-900 opacity-0 transition-opacity  duration-300 group-hover:opacity-100 font-semibold bg-teal-100 rounded-3xl">Insurify your family as well as your in-laws with the family health insurance plans. Do not create the hole in pocket with affordable plans.</p>
         
       </div>
     </div>

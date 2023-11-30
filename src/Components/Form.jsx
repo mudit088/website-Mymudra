@@ -2,17 +2,18 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className="bg-[url('imgs/famback4.png')]  p-4">
-    <div className='inline-flex items-center pl-72 pt-20 '>
-        <p className=' pb-36 pl-20 text-blue-800 font-bold'>
-           <h2 className='text-blue-800 text-xl font-bold  text-10'> HEALTH IS WEALTH ! SECURE YOUR HEALTH </h2><br />
+    <div className="bg-[url('imgs/famback4.png')] align center justify-items-center grid-cos-1 gap-10 m-2 p-2 sm:p-4">
+    <div className='inline-flex items-center pl-0 pt-0 sm:pl-72 sm:pt-20  '>
+        <p className='  text-blue-800 font-bold  align center justify-items-center sm:whitespace-nowrap sm:pb-36 sm:pl-20'>
+           <h2 className='text-blue-800 text-xl font-bold  text-10 '> HEALTH IS WEALTH ! SECURE YOUR HEALTH </h2><br />
           <p className='font-sherif'> Health insurance starting from Rs.16 per day. It can not be more cheaper than this, <br/> we got you affordable health insurance .Apply for the medical policy.</p>
 
         </p>
-        <div className='ml-36 '>
+        </div>
+        <div className='ml-0 pt-10 sm:ml-36 '>
             <div className='border-2  border-solid hover:border-blue-800 rounded-3xl'>
                 <div className='bg-gradient-to-r from-teal-400 to-blue-800 '>
-                <ul className=' bg-blue-to-white p-3'>
+                <ul className=' bg-blue-to-white sm:p-3  p-0'>
                     <a href="" className='pl-36 text-white '>GET FREE QUOTE NOW</a>
                 </ul>
                 </div>
@@ -23,7 +24,7 @@ const Form = () => {
             </form>
             </div>
         </div>
-    </div>
+    
     </div>
   )
 }
