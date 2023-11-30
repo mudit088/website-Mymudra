@@ -1,5 +1,7 @@
 
 import './App.css'
+import Benifits from './Components/Benifits'
+import Faq from './Components/Faq'
 import Form from './Components/Form'
 import Navbar from './Components/Navbar'
 import Partners from './Components/Partners'
@@ -17,6 +19,8 @@ function App() {
      <Partners/>
      <Variants/>
      <Process/>
+     <Benifits/>
+     <Faq/>
     </div>
 
   )
