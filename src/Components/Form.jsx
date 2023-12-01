@@ -10,11 +10,11 @@ const Form = () => {
 
         </p>
         </div>
-        <div className='ml-0 pt-10 sm:ml-36 '>
-            <div className='border-2  border-solid hover:border-blue-800 rounded-3xl'>
+        <div className='ml-0 pt-10 sm:ml-28 '>
+            <div className='border-2  border-solid rounded-3xl shadow-xl'>
                 <div className='bg-gradient-to-r from-teal-400 to-blue-800 '>
                 <ul className=' bg-blue-to-white sm:p-3  p-0'>
-                    <a href="" className='pl-36 text-white '>GET FREE QUOTE NOW</a>
+                    <a href="" className='pl-36 text-white font-sans font-semibold '>GET FREE QUOTE NOW</a>
                 </ul>
                 </div>
             <form>

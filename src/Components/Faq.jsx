@@ -2,6 +2,7 @@ import React from 'react'
 
 const Faq = () => {
   return (
+    <>
 
     <div className=" flex flex-col lg:flex-row ml- justify-center items-center">
         <div className='p-4'>
@@ -15,13 +16,13 @@ const Faq = () => {
         <div>
             <img src="https://f.hellowork.com/blogdumoderateur/2022/04/mettre-en-place-faq.jpg" className='h-96  ' alt="" />
         </div>
-        <div>
-            <select>
-                <option value="">CAN I CLAIM HEALTH INSURENCE 2 TIMES IN A MONTH</option>
-            </select>
         </div>
-       
-    </div>
+         <select name="" id="">
+             <option value="">
+             Though there are no limits on the number of claims, you should be watchful when filing a claim in the car insurance policy.
+             </option>
+         </select>
+        </>
     
   )
 }
