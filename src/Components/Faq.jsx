@@ -41,7 +41,7 @@ const Faq = ({Quest}) => {
         
         
         </div>
-        <section className=" ml-0 mr-0  sm:ml-64 sm:mr-24 sm:mb-24 ">
+        <section className="m-2 ml-0 mr-0  sm:ml-64 sm:mr-24 sm:mb-24 ">
         <div className="justify-center align-center items-center ">
           {data.map((item) => (
             <div key={item.id}>
