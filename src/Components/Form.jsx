@@ -14,13 +14,14 @@ const Form = () => {
             <div className='border-2  border-solid rounded-3xl shadow-xl'>
                 <div className='bg-gradient-to-r from-teal-400 to-blue-800 '>
                 <ul className=' bg-blue-to-white sm:p-3  p-0'>
-                    <a href="" className='pl-36 text-white font-sans font-semibold '>GET FREE QUOTE NOW</a>
+                    <a href="" className=' pl-24 sm:pl-36 text-white font-sans font-semibold '>GET FREE QUOTE NOW</a>
                 </ul>
                 </div>
             <form>
-                <label htmlFor="" className='text-blue-800 p-2'>Phone Number</label>
-                 <input type="number" className='border-2 w-72 h-10 rounded m-6' placeholder='  xxxxxxxxxx' /><br />
+                <label htmlFor="" className='text-blue-800  m-4'>Phone Number
+                 <input type="number" className='border-2 w-72 ] h-10 rounded m-3' placeholder='  xxxxxxxxxx' /><br />
                  <button className='w-36 border-2 mt-4 m-8 ml-24 text-white hover:border-blue-800 bg-gradient-to-r from-teal-400 to-blue-800 rounded'>PROCEED</button>
+                 </label>
             </form>
             </div>
         </div>

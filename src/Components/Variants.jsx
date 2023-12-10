@@ -5,7 +5,7 @@ const Variants = () => {
     <div className=''>
     <div className='flex justify-center  p-4 text-2xl  font-bold m-10 '>
     
-    <p className='text-blue-800 pr-2'>VARIANTS OF </p><p className='text-cyan-500 '>A HEALTH INSURANCE</p>  
+    <p className='text-blue-800 pr-2'>VARIANTS OF</p><p className='text-cyan-500 '>HEALTH INSURANCE</p>  
     </div>
 
     
