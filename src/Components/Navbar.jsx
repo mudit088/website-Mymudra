@@ -1,42 +1,47 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
-  
-    <div>
-      <nav className=' inline-flex justify-center items-center bg-gradient-to-r from-teal-400 to-blue-800 m-1 ml-3'>   { /* 64, 194, 186   0, 68, 133 */ }
-        <div className='p-2 pr-4'>
-      <img src="imgs/LOGO.png" className='h-11' alt="" />
-      </div>
-      <div className='inline-flex'>
-        <ul className=' text-white pt-1  pl-72'>
-          <li className='inline-flex  text-xl font-semibold gap-6 '>
-            <a className='pr-4 hover:text-sky-400' href="">Home</a>
-            <a className='pr-4 hover:text-sky-400' href="">Variants</a>
-            <a className='pr-4 hover:text-sky-400' href="">Process</a>
-            <a className='pr-4 hover:text-sky-400' href="">Benifits</a>
-            <a className='pr-4 hover:text-sky-400' href="">Testimonials</a>
-            <a className='pr-4 hover:text-sky-400' href="">FAQ</a>
-            </li>
-            </ul>
-            
-            <ul className='m-1'>
-             
-              <li className='text-white font-bold'>
-            <a className='ml-52 inline-flex  p-0.5 ' href="" >
-              <img src="imgs/telephone-call.png"  className=' h-7 ml-2' alt="" />+91-97111-20863  
-              <img src="imgs/whatsapp.png"className='h-6 ml-4 '/>+91-97111-20863
-              </a>
-           
-          </li>
-          </ul>
-          
-        
+    <nav className='bg-gradient-to-r from-teal-400 to-blue-800 p-4'>
+      <div className='flex items-center justify-between'>
+        <div>
+          <img src="imgs/LOGO.png" className='h-11' alt="Logo" />
         </div>
-       
-      </nav>
-    </div>
-   
-  )
-}
-export default Navbar
+        <div className='sm:hidden'>
+          {/* Mobile Menu Button */}
+          <button className='text-white focus:outline-none' onClick={toggleMenu}>
+            <img src="imgs/list.png" alt="Menu" />
+          </button>
+        </div>
+        <div className={`sm:flex space-x-6 text-white ${showMenu ? 'block' : 'hidden'}`}>
+          {/* Mobile Menu */}
+          <ul className='flex flex-col font-semibold sm:flex-row'>
+            <li><a href="#" className='hover:text-sky-400 pr-10 sm:pl-32 '>Home</a></li>
+            <li><a href="#" className='hover:text-sky-400 pr-10'>Variants</a></li>
+            <li><a href="#" className='hover:text-sky-400 pr-10'>Process</a></li>
+            <li><a href="#" className='hover:text-sky-400 pr-10'>Benefits</a></li>
+            <li><a href="#" className='hover:text-sky-400 pr-10'>Testimonials</a></li>
+            <li><a href="#" className='hover:text-sky-400 pr-10'>FAQ</a></li>
+          </ul>
+        </div>
+        <div className='hidden sm:block'>
+          {/* Contact Info */}
+          <div className='text-white font-bold'>
+            <a href="#" className='inline-flex items-center space-x-2'>
+              <img src="imgs/telephone-call.png" className='h-7' alt="Phone" /> +91-97111-20863
+              <img src="imgs/whatsapp.png" className='h-6 ml-2' alt="WhatsApp" /> +91-97111-20863
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

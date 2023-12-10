@@ -6,7 +6,7 @@ const Disclaimer = () => {
   return (
     <div>
       <section>
-        <p className='ml-4 mr-4 mb-4 flex items-center justify-center bg-gray-400 text-2xl cursor-pointer font-bold' onClick={()=>setshow(!show)}>Disclamer</p>
+        <p className=' m-10 sm:ml-4 sm:mr-4 sm:mb-4 flex items-center justify-center bg-gray-400 text-2xl cursor-pointer font-bold' onClick={()=>setshow(!show)}>Disclamer</p>
 
         
        { show &&  <p className='ml-10 mr-10 mt-2 p-1 font-semibold bg-gray-200 mb-10'  >

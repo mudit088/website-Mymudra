@@ -10,7 +10,7 @@ const Form = () => {
 
         </p>
         </div>
-        <div className='ml-0 pt-10 sm:ml-28 '>
+        <div className='ml-0 mt-10 bg-white sm:ml-28 '>
             <div className='border-2  border-solid rounded-3xl shadow-xl'>
                 <div className='bg-gradient-to-r from-teal-400 to-blue-800 '>
                 <ul className=' bg-blue-to-white sm:p-3  p-0'>

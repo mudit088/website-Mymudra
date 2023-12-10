@@ -3,7 +3,7 @@ import React from 'react'
 const Process = () => {
   return (
     <div>
-        <div className='border-4 bold border-cyan-500 m-4'>
+        <div className=' bold m-4'>
     <div className='flex justify-center  p-2 text-2xl  font-bold m-8  '>
     
     <p className='text-blue-800 pr-2'>PROCESS OF </p><p className='text-cyan-500 '>HEALTH INSURANCE</p>  

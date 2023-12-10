@@ -25,7 +25,7 @@ const Faq = ({Quest}) => {
     <>
         
 
-    <div className=" flex flex-col lg:flex-row ml- justify-center items-center">
+    <div className=" flex flex-col  lg:flex-row ml- justify-center items-center">
         <div className='p-4'>
         <p className=' text-blue-800 text-5xl font-bold font-sans '>
             FREQUENTLY ASKED <br /> <p className='text-cyan-500 pt-2'> QUESTIONS </p>
@@ -41,7 +41,7 @@ const Faq = ({Quest}) => {
         
         
         </div>
-        <section className=" ml-64 ml-24 mr-24 mb-24 ">
+        <section className=" ml-0 mr-0  sm:ml-64 sm:mr-24 sm:mb-24 ">
         <div className="justify-center align-center items-center ">
           {data.map((item) => (
             <div key={item.id}>
