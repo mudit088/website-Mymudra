@@ -11,7 +11,7 @@ const Partners = () => {
          <button className='w-44 hover:bg-gradient-to-r from-teal-400 to-blue-800 rounded-3xl'> <img className='p-4' src="imgs/company/carehealth.png" alt="" /></button>
          <button className='w-44 hover:bg-gradient-to-r from-teal-400 to-blue-800 rounded-3xl'> <img className='p-4' src="imgs/company/bajaj.png" alt="" /></button>
          <button className='w-44 hover:bg-gradient-to-r from-teal-400 to-blue-800 rounded-3xl'> <img className='p-4' src="imgs/company/hdfc.png" alt="" /></button>
-         <button className='w-44 hover:bg-gradient-to-r from-teal-400 to-blue-800 rounded-3xl'> <img className='p-4' src="imgs/company/StarHealth.png" alt="" /></button>
+         <button className='w-44  hover:bg-gradient-to-r from-teal-400 to-blue-800 rounded-3xl'> <img className='p-4' src="imgs/company/StarHealth.png" alt="" /></button>
          <button className='w-44 hover:bg-gradient-to-r from-teal-400 to-blue-800 rounded-3xl'> <img className='p-4' src="imgs/company/iciciLombard.png" alt="" /></button>
         
         </div>
