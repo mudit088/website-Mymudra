@@ -41,26 +41,26 @@ const Faq = ({Quest}) => {
         
         
         </div>
-        <section className=" ml-0 mr-0  sm:ml-64 sm:mr-24 sm:mb-24 ">
-        <div className="justify-center align-center items-center ">
-          {data.map((item) => (
-            <div key={item.id}>
-              <div className=''>
-              <div className="inline flex text-2xl border-2 rounded-3xl border-blak bg-gradient-to-r from-teal-400 to-blue-800 shadow-black">
-                <p className="p-4">{item.ques}</p>
-                <p className="pt-4 cursor-pointer float-right" onClick={() => toggleShow(item.id)}>
-                  {show[item.id] ? '➖' : '➕'}
-                </p>
-             
-              </div>
-              <div className='bg-gradient-to-r from-teal-400 to-blue-800 rounded-3xl'>
-              {show[item.id] && <p className="text-xl p-4  ">{item.ans}</p>}
-              </div>
-            </div>
-            </div>
-          ))}
+        <section className="ml-0 mr-0 sm:ml-64 sm:mr-24 sm:mb-24">
+  <div className="justify-center align-center items-center">
+    {data.map((item) => (
+      <div key={item.id}>
+        <div className=''>
+          <div className="inline flex text-2xl border-2 rounded-3xl border-blak bg-gradient-to-r from-teal-400 to-blue-800 shadow-black">
+            <p className="p-4">{item.ques}</p>
+            <p className="pt-4 cursor-pointer float-right" onClick={() => toggleShow(item.id)}>
+              {show[item.id] ? '➖' : '➕'}
+            </p>
+          </div>
+          <div className='bg-gradient-to-r from-teal-400 to-blue-800 rounded-3xl duration-300'>
+            {show[item.id] && <p className="text-xl p-4 duration-300">{item.ans}</p>}
+          </div>
         </div>
-      </section>
+      </div>
+    ))}
+  </div>
+</section>
+
 
       
       

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className="bg-[url('public/imgs/famback4.png')] align center justify-items-center grid-cos-1 gap-10 m-2 p-6 sm:p-4 sm:inline-flex">
+    <div className="bg-[url('/imgs/famback4.png')] align center justify-items-center grid-cos-1 gap-10 m-2 p-6 sm:p-4 sm:inline-flex">
     <div className='inline-flex items-center pl-0 pt-0 sm:pl-72 sm:pt-20  '>
         <p className='  text-blue-800 font-bold  align center justify-items-center sm:whitespace-nowrap sm:pb-36 sm:pl-20'>
            <h2 className='text-blue-800 text-xl font-bold  text-10 '> HEALTH IS WEALTH ! SECURE YOUR HEALTH </h2><br />

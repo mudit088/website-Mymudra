@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className='bg-gradient-to-r from-teal-400 to-blue-800 p-4'>
       <div className='flex items-center justify-between'>
         <div>
-          <img src="imgs/LOGO.PNG" className='h-11' alt="Logo" />
+          <img src="/imgs/LOGO.png" className='h-11' alt="Logo" />
         </div>
         <div className='sm:hidden'>
           {/* Mobile Menu Button */}

@@ -10,7 +10,7 @@ const Contact = () => {
             <p>Address : Second Floor, 17, A 45, Block 10,WEA,
 Karol Bagh, New Delhi, Delhi 110005 </p>
 
-<img src="imgs/LOGO.png" alt="" className='h-20 mt-14 sm:ml-96' />
+<img src="/imgs/LOGO.png" alt="" className='h-20 mt-14 sm:ml-96' />
 </p>
     </div>
   )
