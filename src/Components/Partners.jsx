@@ -4,7 +4,7 @@ const Partners = () => {
   return (
     <div className='border-4 border-cyan-500 '>
         <div className='flex justify-center p-4 text-2xl font-bold'>
-           <p className='text-blue-800 pr-2'>OUR </p><p className='text-cyan-500 '>PARTNERS</p>
+           <p className='text-blue-800 pr-3'>OUR </p><p className='text-cyan-500 '>PARTNERS</p>
         </div>
 
         <div className='grid grid-cols-1 gap-8 align center justify-items-center rounded-3xl sm:inline-flex  sm:m-2 justify-between sm:ml-96 '>
