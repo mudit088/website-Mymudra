@@ -2,7 +2,7 @@ import React from 'react'
 
 const Partners = () => {
   return (
-    <div className='border-2 border-cyan-500 '>
+    <div className='border-4 border-cyan-500 '>
         <div className='flex justify-center p-4 text-2xl font-bold'>
            <p className='text-blue-800 pr-2'>OUR </p><p className='text-cyan-500 '>PARTNERS</p>
         </div>
